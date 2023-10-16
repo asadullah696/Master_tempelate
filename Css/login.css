@@ -1,0 +1,355 @@
+@font-face {
+    font-family: King;
+    src: url(./Font-Family/VisualistDemoRegular.ttf);
+}
+
+
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background: rgba(0, 0, 255, 0.708);
+}
+div.container-login{
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    height: 70%;
+    width: 30%;
+    background: 
+    linear-gradient(to right bottom,  skyblue, rgba(62, 254, 85, 0.968)) ;
+    border-radius: 20px 20px 20px 20px;
+    /* transition: 10s ease ; */
+}
+div.heading{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+    /* background-color: aqua; */
+    justify-content: center;
+    color: darkblue;
+    text-shadow: 3px 3px 5px black;
+    align-items: center;
+    font-size: 3rem;
+    font-family: king;
+    word-spacing: 1rem;
+}
+div.optional-login{
+    display: flex;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    height: 10%;
+    width: 90%;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+div.main-login{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0, 0, 255, 0.841);
+    border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+}
+div.signup{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    /* background-color: bisque; */
+    border-radius: 0px 20px 20px 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+form.login-signup{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 90%;
+    height: 60%;
+    /* background-color: brown; */
+}
+input.email-login{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 96%;
+    height: 20%;
+    background-color: gray;
+    border: none;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+}
+input.password-login{
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    width: 96%;
+    box-shadow: 2px 2px 3px black;
+    height: 20%;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+}
+::placeholder{
+    color: lightblue;
+    text-shadow: 2px 2px 3px black;
+    /* background-color: gray;
+    border-radius: 20px; */
+}
+label.login-button{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+    height: 20%;
+    width: 40%;
+    background-color: blueviolet;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 3px black;
+}
+label.login-button:hover{
+    background-color: blue;
+    color: whitesmoke;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 2.4rem;
+}
+div.new-account{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    height: 8%;
+    width: 90%;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    font-size: 1.7rem;
+}
+div.new-account:hover{
+    cursor: pointer;
+    font-size: 1.9rem;
+    color: blue;
+}
+div.container-signup{
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    height: 70%;
+    width: 30%;
+    background: 
+    linear-gradient(to right bottom,  skyblue, rgba(62, 254, 85, 0.968)) ;
+    border-radius: 20px 20px 20px 20px;
+}
+div.login{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 50%;
+    /* background-color: bisque; */
+    border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+}
+div.main-signup{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.841);
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+input.email-signup{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    width: 96%;
+    height: 12%;
+    background-color: gray;
+    border: none;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+}
+input.username{
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 2%;
+    width: 96%;
+    height: 12%;
+    background-color: gray;
+    border: none;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+}
+input.password-signup{
+    display: flex;
+    position: absolute;
+    top: 44%;
+    left: 2%;
+    width: 96%;
+    box-shadow: 2px 2px 3px black;
+    height: 12%;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+}
+input.password-signup-confirm{
+    display: flex;
+    position: absolute;
+    top: 61%;
+    left: 2%;
+    width: 96%;
+    box-shadow: 2px 2px 3px black;
+    height: 12%;
+    background-color: gray;
+    border-radius: 10px;
+    border: none;
+}
+input.referal{
+    display: flex;
+    position: absolute;
+    top: 79%;
+    box-shadow: 2px 2px 3px black;
+    left: 2%;
+    height: 12%;
+    width: 96%;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+}
+label.signup-button{
+    display: flex;
+    position: absolute;
+    bottom: -15%;
+    left: 30%;
+    height: 20%;
+    width: 40%;
+    background-color: blueviolet;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 3px black;
+}
+label.signup-button:hover{
+    background-color: blue;
+    color: whitesmoke;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 2.4rem;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1000px){
+    html{
+        font-size: 55%;
+    }
+    div.main-container{
+        left: 28%;
+        width: 44%;
+        height: 525px;
+    }
+}
+@media only screen and (max-width:800px){
+    html{
+        font-size: 52%;
+    }
+    div.main-container{
+        left: 24%;
+        width: 52%;
+        height: 525px;
+    }
+}
+@media only screen and (max-width:600px){
+    html{
+        font-size: 52%;
+    }
+    div.main-container{
+        left: 22%;
+        width: 56%;
+        height: 525px;
+    }
+}
+@media only screen and (max-width:500px){
+    html{
+        font-size: 52%;
+    }
+    div.main-container{
+        left: 10%;
+        width: 80%;
+        height: 525px;
+    }
+}
+@media only screen and (max-width:400px){
+    html{
+        font-size: 47%;
+    }
+    div.main-container{
+        left: 5%;
+        width: 90%;
+        height: 525px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading</title>
+    <link rel="stylesheet" href="./Css/login.css">
+</head>
+<body>
+    <div class="container-login main-container" id="login">
+        <div class="heading">
+             Login to Trading
+        </div>
+        <div class="optional-login">
+            <div class="main-login" onclick="loginform()">
+                Login
+            </div>
+            <div class="signup" onclick="signupform()">
+                Signup
+            </div>
+        </div>
+        <form action="#" class="login-signup">
+                <input type="text" class="email-login" placeholder="Enter Your Email">
+                <input type="Password" class="password-login" placeholder="Enter Your Password">
+                <!-- <input type="text" class="referal" placeholder="Referal Code   (Optional)  "> -->
+                <label for="submit" class="login-button">Login</label>
+        </form>
+        <div class="new-account">
+                <span onclick="signupform()">Create new account</span>
+        </div>
+    </div>
+    <div class="container-signup main-container" id="signup">
+        <div class="heading">
+            Signup to Trading
+       </div>
+       <div class="optional-login">
+           <div class="login" onclick="loginform()">
+               Login
+           </div>
+           <div class="main-signup" onclick="signupform()">
+               Signup
+           </div>
+       </div>
+       <form action="#" class="login-signup">
+        <input type="text" class="username" placeholder="Enter your Name" required>
+        <input type="email" class="email-signup" id="usermail" placeholder="Enter Your Email" required>
+        <input type="Password" class="password-signup" id="userpassword" placeholder="Enter Your Password" required>
+        <input type="password" class="password-signup-confirm" placeholder="Re-Enter your password" required>
+        <input type="text" class="referal" placeholder="Referal Code   (Optional)  ">
+        <label for="submit" onclick="savingData()" class="signup-button">Signup </label>
+        </form>
+    </div>
+
+
+    <script src="./JavaScript/login.js"></script>
+
+
+
+</body>
+</html>
