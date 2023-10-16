@@ -20,10 +20,12 @@
             </div>
         </div>
         <form action="#" class="login-signup">
-                <input type="text" class="email-login" placeholder="Enter Your Email">
-                <input type="Password" class="password-login" placeholder="Enter Your Password">
+                <input type="text" id="emailLogin" class="email-login" placeholder="Enter Your Email">
+                <input type="Password" id="passwordLogin" class="password-login" placeholder="Enter Your Password">
                 <!-- <input type="text" class="referal" placeholder="Referal Code   (Optional)  "> -->
-                <label for="submit" class="login-button">Login</label>
+                <label for="submit" class="login-button" onclick="checkValidation()">
+                    <a id="loginPass" class="login1 pxmain1900" href="#login">Login</a>
+                </label>
         </form>
         <div class="new-account">
                 <span onclick="signupform()">Create new account</span>
