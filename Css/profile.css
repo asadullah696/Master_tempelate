@@ -8,7 +8,7 @@ body{
 
 
 div.profile-page{
-    display: flex;
+    display: none;
     background: 
     linear-gradient(to left bottom, white, blue) ;
 }
@@ -17,7 +17,7 @@ div.main-section{
     position: absolute;
     top: 5%;
     left: 10%;
-    height: 50%;
+    height: 300px;
     width: 80%;
     border-radius: 20px;
     background: 
@@ -180,6 +180,6 @@ div.main-section-profile-image{
     }
     div.main-section{
         top: 10%;
-        height: 30%;
+        height: 300px;
     }
 }

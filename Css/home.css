@@ -56,28 +56,29 @@ div.home-page{
 }
 div.main-all-page{
     position: absolute;
-    top: 10%;
+    top: 5%;
     right: 20%;
     width: 50%;
-    height: 90%;
-    background-color: rgb(0, 0, 0);
+    height: 900px;
+    background: 
+    linear-gradient(to left bottom, white, rgb(0, 0, 0)) ;
 }
 div.home-page-heading{
     display: flex;
     position: absolute;
-    top: 2%;
-    height: 8%;
+    top: 10px;
+    height: 90px;
     left: 2%;
     width: 96%;
     background-color: silver;
     justify-content: center;
     align-items: center;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 div.trade-list{
     display: flex;
     position: absolute;
-    height: 8%;
+    height: 75px;
     left: 0%;
     font-size: 2rem;
     justify-content: center;
@@ -87,34 +88,34 @@ div.trade-list{
     linear-gradient(to left bottom, gray, rgba(169, 212, 26, 0.821)) ;
 }
 div.tradelist1{
-    top: 12%;
+    top: 120px;
 }
 div.tradelist2{
-    top: 20.5%;
+    top: 197px;
 }
 div.tradelist3{
-    top: 29%;
+    top: 274px;
 }
 div.tradelist4{
-    top: 37.5%;
+    top: 351px;
 }
 div.tradelist5{
-    top: 46%;
+    top: 428px;
 }
 div.tradelist6{
-    top: 54.5%;
+    top: 505px;
 }
 div.tradelist7{
-    top: 63%;
+    top: 582px;
 }
 div.tradelist8{
-    top: 71.5%;
+    top: 659px;
 }
 div.tradelist9{
-    top: 80%;
+    top: 736px;
 }
 div.tradelist10{
-    top: 88.5%;
+    top: 813px;
 }
 div.trade-value{
     display: flex;

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../Css/home.css">
     <link rel="stylesheet" href="../Css/profile.css">
     <link rel="stylesheet" href="../Css/media.css">
+    <link rel="stylesheet" href="../Css/wallet.css">
+    <link rel="stylesheet" href="../Css/marketplace.css">
 </head>
 <body>
     <div class="menu">
@@ -143,6 +145,60 @@
         </div>
     </div>
 
+
+    <div class="market-page main-all-page" id="marketPage">
+        <div class="deposit-amount">
+            <div class="market-sec-heading">
+                Deposit Section
+            </div>
+            <div class="market-sec-main">
+                <label for="" class="prove-image" onclick="document.getElementById('proveImage').click()">Upload your screen shot here</label>
+                <input type="file" class="prove-image" value="upload" id="proveImage">
+                <div class="market-help-sec">
+                    Submit
+                </div>
+            </div>
+        </div>
+        <div class="withdraw-amount">
+            <div class="market-sec-heading">
+                Withdraw Section
+            </div>
+            <div class="market-sec-main">
+                <div class="market-help-sec">
+                    Submit
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="wallet-page main-all-page" id="walletPage">
+        <div class="wallet-data">
+            <div class="total-amount-wallet">
+                <div class="wallet-sect-heading">
+                    Earn Amount
+                </div>
+                <div class="integar-value-wallet">
+                    12,350
+                </div>
+            </div>
+            <div class="earn-amount-wallet">
+                <div class="wallet-sect-heading">
+                    Withdrawal Amount
+                </div>
+                <div class="integar-value-wallet">
+                    7899
+                </div>
+            </div>
+        </div>
+        <div class="deposit-withdraw-wallet">
+
+        </div>
+    </div>
+
+    
+
     <div class="profile-page main-all-page" id="profilePage">
         <div class="main-section">
             <div class="profile-detail">
@@ -177,22 +233,22 @@
         </div>
     </div>
 
-
+    
 
     <div class="nav-menu">
-        <div class="nav-menu-list nav-menu-list1" onclick="menuListHome()">
+        <div class="nav-menu-list nav-menu-list1" id="navMenuHome" onclick="menuListHome()">
             <img src="../Icons/Nav-bar/home-svgrepo-com.svg" alt="" class="nav-menu-list">
         </div>
-        <div class="nav-menu-list nav-menu-list2" onclick="menuListMarketHelp()">
+        <div class="nav-menu-list nav-menu-list2" id="navMenuMarket" onclick="menuListMarket()">
             <img src="../Icons/Nav-bar/market-stall-svgrepo-com.svg" alt="" class="nav-menu-list">
         </div>
-        <div class="nav-menu-list nav-menu-list3" onclick="menuListWallet">
+        <div class="nav-menu-list nav-menu-list3" id="navMenuWallet" onclick="menuListWallet()">
             <img src="../Icons/Nav-bar/wallet-svgrepo-com.svg" alt="" class="nav-menu-list">
         </div>
-        <div class="nav-menu-list nav-menu-list4" onclick="menuListHelpCenter()">
+        <div class="nav-menu-list nav-menu-list4" id="navMenuHelpCenter" onclick="menuListHelpCenter()">
             <img src="../Icons/Nav-bar/help-circle-svgrepo-com.svg" alt="" class="nav-menu-list">
         </div>
-        <div class="nav-menu-list nav-menu-list5" onclick="menuListPortfolio()">
+        <div class="nav-menu-list nav-menu-list5" id="navMenuProfile" onclick="menuListPortfolio()">
             <img src="../Icons/Nav-bar/profile-circle-svgrepo-com.svg" alt="" class="nav-menu-list">
         </div>
     </div>

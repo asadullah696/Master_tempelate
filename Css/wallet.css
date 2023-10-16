@@ -1,0 +1,108 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: burlywood;
+}
+
+
+div.wallet-page{
+    display: none;
+    height: 650px;
+}
+div.wallet-data{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    height: 300px;
+    left: 5%;
+    border-radius: 20px;
+    width: 90%;
+    background: 
+    linear-gradient(to right bottom, white, rgba(120, 116, 118, 0.608)) ;
+    box-shadow: 2px 2px 5px white;
+}
+div.total-amount-wallet{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    background-color: rgba(120, 234, 166, 0.745);
+}
+div.earn-amount-wallet{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    height: 40%;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(156, 170, 248, 0.559);
+}
+div.wallet-sect-heading{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    height: 45%;
+    width: 100%;
+    text-shadow: 2px 2px 5px azure;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    font-size: 2rem;
+    /* background-color: blue; */
+}
+div.integar-value-wallet{
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+    height: 45%;
+    width: 100%;
+    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 520;
+    /* background-color: rgb(149, 255, 0); */
+}
+div.deposit-withdraw-wallet{
+    display: flex;
+    position: absolute;
+    top: 350px;
+    left: 5%;
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
