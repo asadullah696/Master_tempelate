@@ -2,7 +2,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: burlywood;
+    background-color: gray;
 }
 
 
@@ -30,8 +30,9 @@ div.total-amount-wallet{
     height: 40%;
     border: 1px solid black;
     border-radius: 20px;
+    background: 
+    linear-gradient(to right bottom, rgb(0, 0, 0), rgba(120, 116, 118, 0.608)) ;
     width: 80%;
-    background-color: rgba(120, 234, 166, 0.745);
 }
 div.earn-amount-wallet{
     display: flex;
@@ -42,7 +43,8 @@ div.earn-amount-wallet{
     width: 80%;
     border: 1px solid black;
     border-radius: 20px;
-    background-color: rgba(156, 170, 248, 0.559);
+    background: 
+    linear-gradient(to right bottom, rgb(0, 0, 0), rgba(100, 100, 100, 0.989)) ;
 }
 div.wallet-sect-heading{
     display: flex;
@@ -77,9 +79,10 @@ div.deposit-withdraw-wallet{
     top: 350px;
     left: 5%;
     width: 90%;
-    height: 200px;
+    height: 500px;
     border-radius: 20px;
-    background-color: aquamarine;
+    background: 
+    linear-gradient(to right bottom, rgb(170, 170, 170), rgba(100, 100, 100, 0.989)) ;
 }
 
 

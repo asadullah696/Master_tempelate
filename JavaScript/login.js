@@ -25,14 +25,13 @@ let savingData = () =>{
 }
 
 
-        let email = ["asadullah", "badshah", "Kings"]
-        let password = ["123", "456", "789"]
+        
 
         // Login Function
 
         const checkValidation = () =>{
-        let email = ["asadullah", "badshah", "Kings"]
-        let password = ["123", "456", "789"]
+        let email = ["asadullah", "badshah", "Kings", "uzair"]
+        let password = ["12345678"]
         
         let useremail = document.getElementById("emailLogin").value ;
         let userpassword = document.getElementById("passwordLogin").value ;

@@ -7,10 +7,10 @@ let menuListHome = () =>{
     document.getElementById("walletPage").style.display = "none";
     document.getElementById("profilePage").style.display = "none";
     document.getElementById("navMenuHome").style.backgroundColor = "rgba(6, 127, 132, 0.623)";
-    document.getElementById("navMenuMarket").style.backgroundColor = "aqua";
-    document.getElementById("navMenuWallet").style.backgroundColor = "aqua";
-    document.getElementById("navMenuHelpCenter").style.backgroundColor = "aqua";
-    document.getElementById("navMenuProfile").style.backgroundColor = "aqua";
+    document.getElementById("navMenuMarket").style.backgroundColor = " rgb(88, 88, 88)";
+    document.getElementById("navMenuWallet").style.backgroundColor = " rgb(88, 88, 88)";
+    document.getElementById("navMenuHelpCenter").style.backgroundColor = " rgb(88, 88, 88)";
+    document.getElementById("navMenuProfile").style.backgroundColor = " rgb(88, 88, 88)";
 }
 
 let menuListMarket = () =>{
@@ -18,11 +18,11 @@ let menuListMarket = () =>{
     document.getElementById("marketPage").style.display = "flex";
     document.getElementById("walletPage").style.display = "none";
     document.getElementById("profilePage").style.display = "none";
-    document.getElementById("navMenuHome").style.backgroundColor = "aqua";
+    document.getElementById("navMenuHome").style.backgroundColor = " rgb(88, 88, 88)";
     document.getElementById("navMenuMarket").style.backgroundColor = "rgba(6, 127, 132, 0.623)";
-    document.getElementById("navMenuWallet").style.backgroundColor = "aqua";
-    document.getElementById("navMenuHelpCenter").style.backgroundColor = "aqua";
-    document.getElementById("navMenuProfile").style.backgroundColor = "aqua";
+    document.getElementById("navMenuWallet").style.backgroundColor = " rgb(88, 88, 88)";
+    document.getElementById("navMenuHelpCenter").style.backgroundColor = " rgb(88, 88, 88)";
+    document.getElementById("navMenuProfile").style.backgroundColor = " rgb(88, 88, 88)";
 }
 
 let menuListWallet = () =>{
@@ -30,11 +30,11 @@ let menuListWallet = () =>{
     document.getElementById("marketPage").style.display = "none";
     document.getElementById("walletPage").style.display = "flex";
     document.getElementById("profilePage").style.display = "none";
-    document.getElementById("navMenuHome").style.backgroundColor = "aqua";
-    document.getElementById("navMenuMarket").style.backgroundColor = "aqua";
+    document.getElementById("navMenuHome").style.backgroundColor = " rgb(88, 88, 88)";
+    document.getElementById("navMenuMarket").style.backgroundColor = " rgb(88, 88, 88)";
     document.getElementById("navMenuWallet").style.backgroundColor = "rgba(6, 127, 132, 0.623)";
-    document.getElementById("navMenuHelpCenter").style.backgroundColor = "aqua";
-    document.getElementById("navMenuProfile").style.backgroundColor = "aqua";
+    document.getElementById("navMenuHelpCenter").style.backgroundColor = " rgb(88, 88, 88)";
+    document.getElementById("navMenuProfile").style.backgroundColor = " rgb(88, 88, 88)";
 }
 
 let menuListPortfolio = () =>{
@@ -42,9 +42,9 @@ let menuListPortfolio = () =>{
     document.getElementById("marketPage").style.display = "none";
     document.getElementById("walletPage").style.display = "none";
     document.getElementById("profilePage").style.display = "flex";
-    document.getElementById("navMenuHome").style.backgroundColor = "aqua";
-    document.getElementById("navMenuMarket").style.backgroundColor = "aqua";
-    document.getElementById("navMenuWallet").style.backgroundColor = "aqua";
-    document.getElementById("navMenuHelpCenter").style.backgroundColor = "aqua";
+    document.getElementById("navMenuHome").style.backgroundColor = " rgb(88, 88, 88)";
+    document.getElementById("navMenuMarket").style.backgroundColor = " rgb(88, 88, 88)";
+    document.getElementById("navMenuWallet").style.backgroundColor = " rgb(88, 88, 88)";
+    document.getElementById("navMenuHelpCenter").style.backgroundColor = " rgb(88, 88, 88)";
     document.getElementById("navMenuProfile").style.backgroundColor = "rgba(6, 127, 132, 0.623)";
 }

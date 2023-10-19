@@ -2,10 +2,11 @@ html{
     font-size: 62.5%;
 }
 body{
-    background: rgba(0, 0, 255, 0.708);
+    background: rgb(71, 71, 71);
 }
 
 div.market-page{
+    display: none;
     height: 800px;
 }
 div.deposit-amount{
@@ -16,8 +17,9 @@ div.deposit-amount{
     height: 300px;
     width: 90%;
     border-radius: 20px;
+    border: 2PX solid gray;
     background: 
-    linear-gradient(to left top, rgb(105, 78, 78), white) ;
+    linear-gradient(to left top, rgb(0, 0, 0), rgb(83, 83, 83)) ;
 }
 div.withdraw-amount{
     display: flex;
@@ -28,7 +30,8 @@ div.withdraw-amount{
     width: 90%;
     border-radius: 20px;
     background: 
-    linear-gradient(to left top, rgb(105, 78, 78), white) ;
+    linear-gradient(to left top, rgb(0, 0, 0), rgb(83, 83, 83)) ;
+    border: 2PX solid gray;
 }
 div.market-sec-heading{
     display: flex;
@@ -41,7 +44,7 @@ div.market-sec-heading{
     align-items: center;
     font-size: 2.5rem;
     font-weight: 550;
-    text-shadow: 2px 2px 3px rgba(83, 222, 194, 0.69);
+    text-shadow: 2px 2px 3px rgba(201, 201, 201, 0.69);
     /* background-color: aqua; */
 }
 div.market-sec-main{
@@ -52,7 +55,8 @@ div.market-sec-main{
     left: 5%;
     width: 90%;
     border-radius: 30px;
-    background-color: rgba(209, 234, 155, 0.258);
+    background: 
+    linear-gradient(to left top, rgb(0, 0, 0), rgb(83, 83, 83)) ;
 }
 div.market-help-sec{
     display: flex;
@@ -87,8 +91,11 @@ label.prove-image{
     height: 15%;
     width: 55%;
     border-radius: 40px;
-    background-color: gray;
-    text-shadow: 2px 2px 3px white;
+    background-color: black;
+    color: gray;
+    border: 1.5px solid white;
+    box-shadow: 2px 2px 3px red;
+    /* text-shadow: 2px 2px 3px white; */
     justify-content: center;
     align-items: center;
 }

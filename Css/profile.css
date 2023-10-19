@@ -2,7 +2,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: burlywood;
+    background-color: gray;
 }
 
 
@@ -10,7 +10,7 @@ body{
 div.profile-page{
     display: none;
     background: 
-    linear-gradient(to left bottom, white, blue) ;
+    linear-gradient(to left bottom, white, rgb(0, 0, 0)) ;
 }
 div.main-section{
     display: flex;
@@ -46,7 +46,7 @@ div.profile-username{
 div.profile-referral-code{
     display: flex;
     position: absolute;
-    top: 31%;
+    top: 38%;
     height: 10%;
     left: 8%;
     width: 80%;
@@ -57,7 +57,7 @@ div.profile-referral-code{
 div.cash-section{
     display: flex;
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 5%;
     width: 90%;
     height: 50%;
@@ -118,7 +118,12 @@ div.main-section-profile-image{
     width: 30%;
     height: 60%;
     border-radius: 100px;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+img.main-section-profile-image{
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
 }
 
 
